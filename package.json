@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\"  "
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  }
+}
